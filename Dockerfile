@@ -7,6 +7,3 @@ FROM java:8
 WORKDIR /app
 COPY ./target/docker-1.0-SNAPSHOT.jar /app/docker-1.0-SNAPSHOT.jar
 CMD ["java", "-jar", "/app/docker-1.0-SNAPSHOT.jar"]
-
-#
-#
